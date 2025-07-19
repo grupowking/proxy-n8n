@@ -11,7 +11,7 @@ app.post('/pergunta', async (req, res) => {
     const { pergunta } = req.body
 
     const resposta = await axios.post(
-      'https://grupowking.app.n8n.cloud/webhook/SEU-WEBHOOK-ID',
+      'https://grupowking.app.n8n.cloud/webhook/cd1fe60f-57b6-4be0-8fce-41e4c5d75221',
       { pergunta }
     )
 
